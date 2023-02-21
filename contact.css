@@ -1,0 +1,255 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+
+.work_with_us {
+  display: flex;
+
+  justify-content: space-around;
+  background-image: url('footer.jpg');
+  padding: 40px;
+  color: rgb(201, 193, 193);
+}
+
+.design {
+  margin: 5%;
+}
+.request {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.req1 {
+  margin-right: 20px;
+}
+
+.line{
+  text-align:center;
+  padding:10px;
+  background-color: black;
+  color:white;
+
+}
+
+
+.form {
+  background-color: white;
+  border: 2px solid rgb(187, 182, 182);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+  margin:20px;
+}
+
+input {
+  padding: 5px 20px;
+  margin: 0px 10px;
+  box-shadow: 2px 2px 2px rgb(109, 108, 108);
+}
+
+.message {
+  padding: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 2px rgb(109, 108, 108);
+}
+
+.form h1 {
+  color: rgb(100, 98, 98);
+}
+
+.send {
+  color: white;
+  background-color: blue;
+  border-color: rgb(1, 142, 207);
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.send:hover {
+  background-color: green;
+  border: 2px solid green;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.support {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0px;
+  background: rgb(28, 29, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 29, 29, 0.8911939775910365) 0%,
+    rgba(105, 126, 126, 1) 24%,
+    rgba(162, 182, 182, 1) 62%,
+    rgba(31, 31, 36, 1) 100%
+  );
+  padding: 40px 20px;
+  color: white;
+}
+
+
+.staff h1,h3{
+    margin:10px 0;
+    font-style: italic;
+   
+}
+.person1,
+.person2 {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
+.man1,
+.man2 {
+  text-align: center;
+}
+
+
+.medias{
+ font-family:poppins;
+ background: rgb(95,123,150);
+background: linear-gradient(90deg, rgba(95,123,150,1) -13437%,
+ rgba(149,153,180,1) -7012%, rgba(245,214,31,1) -4012%, rgba(48,50,52,1) 7%,
+  rgba(51,53,57,1) 19%, rgba(43,47,62,1) 45%, rgba(37,40,52,1) 71%, rgba(52,54,66,1) 99%,
+   rgba(193,197,218,1) 725%);
+  color:white;
+  display: flex;
+  justify-content:space-around;
+  font-weight:bold;
+  flex-flow:wrap;
+  text-align:center;
+  padding:40px;
+}
+
+
+.fas{
+  border:2px solid gray;
+}
+.facebook,.gmail,.twitter,.insta{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align:center;
+  align-items:center;
+  padding:20px;
+  
+}
+
+
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.last li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lastone {
+  background-color: black;
+
+  padding-bottom: 30px;
+}
+
+.lastimages {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  margin: 20px 35%;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.lastimages .fab {
+  margin: 5px;
+}
+
+.lastmessage {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.fas,
+.fa {
+  border-radius: 50%;
+  border: 3px solid rgb(177, 176, 176);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.fab,
+.fa-facebook-f {
+  border-radius: 50%;
+  border: 3px solid rgb(177, 176, 176);
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fab:hover,.fas:hover{
+    background-color:rgb(107, 107, 107);
+    font-size:28px;
+    transition:0.5s;
+    border:3px solid rgb(203, 221, 220);
+}
+
+
+
+@media screen and (max-width:768px){
+    .work_with_us {
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+  .support {
+    font-size: 18px;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+  .man1,
+  .man2 {
+    width: 100%;
+  }
+
+  .person1,
+  .person2 {
+    margin: auto;
+    height: 180px;
+    width: 180px;
+  }
+
+  .last {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .form{
+    text-align:center;
+  }
+}
+
+
+
