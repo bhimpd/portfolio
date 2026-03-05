@@ -12,12 +12,12 @@ export const experience: Experience[] = [
     role: 'QA Automation Engineer',
     duration: 'July 2025 - Present',
     responsibilities: [
-      'Digital banking application testing',
+      'Web and mobile banking application testing',
       'Payment gateway testing and transaction validation',
       'API automation and cross-device quality checks',
       'Security testing with Burp Suite and automation in Playwright',
     ],
-    technologies: ['Playwright', 'Burp Suite', 'Postman', 'API Testing'],
+    technologies: ['Playwright', 'Burp Suite', 'Postman', 'API Testing', 'Mobile Testing', 'Appium', 'Azure DevOps'],
   },
   {
     company: 'Intuji Pvt Ltd',
