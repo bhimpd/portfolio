@@ -5,8 +5,6 @@ export type Project = {
   github: string;
 };
 
-const repo = 'https://github.com/bhimpd/';
-
 export const projects: Project[] = [
   {
     title: 'Cypress Automation Framework',
