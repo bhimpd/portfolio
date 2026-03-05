@@ -17,7 +17,7 @@ export function HeroSection() {
             <span className="bg-gradient-to-r from-neon via-lime to-coral bg-clip-text text-transparent"> Lamichhane</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="max-w-xl text-base leading-relaxed text-mute md:text-lg">
-           Hi, I'm Bhim Prasad Lamichhane — QA Automation Engineer <br /><br />
+           Hi, I&apos;m Bhim Prasad Lamichhane — QA Automation Engineer <br /><br />
 
   • Manual Testing • Playwright • Cypress • Selenium <br />
    • JMeter • Burp Suite • Automation Frameworks  <br /> • Jenkins • Git/GitLab <br /><br />
