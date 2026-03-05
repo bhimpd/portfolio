@@ -23,22 +23,21 @@ export function AboutSection() {
           <p className="font-mono text-xs uppercase tracking-[0.22em] text-neon">About</p>
           <h2 className="mt-2 font-display text-3xl text-text md:text-4xl">Story and Professional Summary</h2>
           <p className="mt-4 max-w-3xl leading-relaxed text-mute">
-            QA Automation Engineer with strong experience in testing complex web, mobile, and digital banking systems. 
-Skilled in manual testing, automation framework development, API validation, performance testing, 
-and security testing to ensure high-reliability software delivery across banking platforms. <br /><br />
+  QA Automation Engineer with strong experience in testing complex web, mobile, and digital banking systems. 
+  Skilled in manual testing, automation framework development, API validation, performance testing, 
+  and security testing to ensure high-reliability software delivery across banking platforms. <br /><br />
 
-Experienced in testing both **web applications and mobile banking applications**, performing end-to-end validation 
-of critical financial workflows such as authentication, transactions, wallet operations, and payment services. 
-Built and maintained automation suites using Playwright, Cypress, and Selenium, performed load testing with 
-JMeter, and conducted security validation using Burp Suite. <br /><br />
+  Experienced in testing both <span className="font-bold text-white">web applications and mobile banking applications</span>, performing end-to-end validation 
+  of critical financial workflows such as authentication, transactions, wallet operations, and payment services. 
+  Built and maintained automation suites using Playwright, Cypress, and Selenium, performed load testing with 
+  JMeter, and conducted security validation using Burp Suite. <span className="font-bold text-white">Executed automated test suites through CI/CD pipelines using Jenkins to streamline builds, test execution, and reporting.</span><br /><br />
 
-Comfortable working across the full software testing lifecycle including requirement analysis, test case design, 
-defect tracking, regression testing, and release validation. Also experienced in **mobile test automation using 
-Appium** and validating applications across multiple devices and environments. <br /><br />
+  Comfortable working across the full software testing lifecycle including requirement analysis, test case design, 
+  defect tracking, regression testing, and release validation. Also experienced in <span className="font-bold text-white">mobile test automation using Appium</span> and validating applications across multiple devices and environments.<br /><br />
 
-Passionate about improving software quality through automation-first testing practices, mentoring junior engineers 
-and interns, and collaborating with cross-functional teams using tools like ClickUp and Azure DevOps.
-          </p>
+  Passionate about improving software quality through automation-first testing practices, mentoring junior engineers 
+  and interns, and collaborating with cross-functional teams using tools like ClickUp and Azure DevOps.
+</p>
         </div>
 
         <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-4 md:grid-cols-2">

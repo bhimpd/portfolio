@@ -27,7 +27,7 @@ export const skills: SkillCategory[] = [
   },
   {
     title: 'Tools & DevOps',
-    items: ['GitHub', 'ClickUp', 'Apidog', 'Docker', 'Linux', 'Magento2', 'REST APIs', 'Netsuite'],
+    items: ['GitHub', 'Gitlab','Jenkins', 'ClickUp', 'Apidog', 'Docker', 'Linux', 'Magento2', 'REST APIs', 'Netsuite'],
     score: 82,
   },
 ];

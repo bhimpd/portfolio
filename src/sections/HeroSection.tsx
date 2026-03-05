@@ -19,8 +19,8 @@ export function HeroSection() {
           <motion.p variants={fadeUp} className="max-w-xl text-base leading-relaxed text-mute md:text-lg">
            Hi, I'm Bhim Prasad Lamichhane — QA Automation Engineer <br /><br />
 
-  Manual Testing • Playwright • Cypress • Selenium <br />
-  JMeter • Burp Suite • Automation Frameworks <br /><br />
+  • Manual Testing • Playwright • Cypress • Selenium <br />
+   • JMeter • Burp Suite • Automation Frameworks  <br /> • Jenkins • Git/GitLab <br /><br />
 
   Mentoring junior engineers and interns while ensuring high-quality software delivery.
           </motion.p>
