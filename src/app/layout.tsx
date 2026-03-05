@@ -19,9 +19,9 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Bhim Prasad Lamichhane | Software Engineer Portfolio',
+  title: 'Bhim Prasad Lamichhane | QA Automation Engineer Portfolio',
   description:
-    'Portfolio of Bhim Prasad Lamichhane - Software Engineer, Full Stack Engineer, and QA Automation Engineer.',
+    'Portfolio of Bhim Prasad Lamichhane - QA Automation Engineer.',
   keywords: [
     'Bhim Prasad Lamichhane',
     'QA Automation Engineer',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     'Portfolio',
   ],
   openGraph: {
-    title: 'Bhim Prasad Lamichhane | Software Engineer Portfolio',
+    title: 'Bhim Prasad Lamichhane | QA Engineer Portfolio',
     description:
       'Modern developer portfolio showcasing QA automation, full stack engineering, and digital banking quality solutions.',
     type: 'website',

@@ -10,14 +10,19 @@ export function HeroSection() {
       <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 md:grid-cols-2 md:px-8">
         <motion.div variants={stagger} initial="hidden" animate="show" className="space-y-6">
           <motion.p variants={fadeUp} className="font-mono text-sm uppercase tracking-[0.24em] text-neon">
-            Software Engineer
+            QA Automation Engineer
           </motion.p>
           <motion.h1 variants={fadeUp} className="font-display text-4xl leading-tight text-text sm:text-5xl md:text-6xl">
             Bhim Prasad
             <span className="bg-gradient-to-r from-neon via-lime to-coral bg-clip-text text-transparent"> Lamichhane</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="max-w-xl text-base leading-relaxed text-mute md:text-lg">
-            Full Stack Engineer and QA Automation Engineer focused on high-reliability software, digital banking quality, and automation-first product delivery.
+           Hi, I'm Bhim Prasad Lamichhane — QA Automation Engineer <br /><br />
+
+  Manual Testing • Playwright • Cypress • Selenium <br />
+  JMeter • Burp Suite • Automation Frameworks <br /><br />
+
+  Mentoring junior engineers and interns while ensuring high-quality software delivery.
           </motion.p>
           <motion.div variants={fadeUp} className="flex flex-wrap gap-3">
             <a

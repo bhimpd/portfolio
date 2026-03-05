@@ -4,10 +4,9 @@ import { motion } from 'framer-motion';
 import { sectionReveal, stagger } from '@/animations/motionVariants';
 
 const milestones = [
-  { year: '2023', label: 'Frontend Developer at SAIT' },
-  { year: '2024', label: 'Intern to Trainee at Intuji' },
-  { year: '2025', label: 'QA Automation Engineer at InfoDevelopers' },
-  { year: 'Now', label: 'Building scalable full stack + QA systems' },
+  { year: 'Feb 2023 - Dec 2023', label: 'Frontend Developer at SAIT' },
+  { year: 'Jan 2024 - July 2025', label: 'Intern to Trainee at Intuji' },
+  { year: 'July 2025 - Now', label: 'QA Automation Engineer at InfoDevelopers' },
 ];
 
 export function AboutSection() {
@@ -24,7 +23,21 @@ export function AboutSection() {
           <p className="font-mono text-xs uppercase tracking-[0.22em] text-neon">About</p>
           <h2 className="mt-2 font-display text-3xl text-text md:text-4xl">Story and Professional Summary</h2>
           <p className="mt-4 max-w-3xl leading-relaxed text-mute">
-            Motivated Full Stack Engineer with hands-on experience in web development, backend systems, QA automation, and digital banking applications. Skilled in building scalable solutions using modern frameworks, end-to-end testing, API validation, automation scripting, and quality-focused software delivery.
+            QA Automation Engineer with strong experience in testing complex web, mobile, and digital banking systems. 
+Skilled in manual testing, automation framework development, API validation, performance testing, 
+and security testing to ensure high-reliability software delivery across banking platforms. <br /><br />
+
+Experienced in testing both **web applications and mobile banking applications**, performing end-to-end validation 
+of critical financial workflows such as authentication, transactions, wallet operations, and payment services. 
+Built and maintained automation suites using Playwright, Cypress, and Selenium, performed load testing with 
+JMeter, and conducted security validation using Burp Suite. <br /><br />
+
+Comfortable working across the full software testing lifecycle including requirement analysis, test case design, 
+defect tracking, regression testing, and release validation. Also experienced in **mobile test automation using 
+Appium** and validating applications across multiple devices and environments. <br /><br />
+
+Passionate about improving software quality through automation-first testing practices, mentoring junior engineers 
+and interns, and collaborating with cross-functional teams using tools like ClickUp and Azure DevOps.
           </p>
         </div>
 
