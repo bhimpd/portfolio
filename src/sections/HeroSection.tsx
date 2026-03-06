@@ -1,14 +1,15 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { GlobeScene } from '@/three/GlobeScene';
+import Image from 'next/image';
 import { fadeUp, stagger } from '@/animations/motionVariants';
+import heroImage from '@/app/heroimage.jpg';
 
 export function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen scroll-mt-24 pt-28 md:pt-32">
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 md:grid-cols-2 md:px-8">
-        <motion.div variants={stagger} initial="hidden" animate="show" className="space-y-6">
+      <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-4 md:grid-cols-[0.85fr_1.15fr] md:px-8">
+        <motion.div variants={stagger} initial="hidden" animate="show" className="space-y-6 md:max-w-lg">
           <motion.p variants={fadeUp} className="font-mono text-sm uppercase tracking-[0.24em] text-neon">
             QA Automation Engineer
           </motion.p>
@@ -41,8 +42,14 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.9 }}>
-          <div className="rounded-3xl border border-white/10 bg-panel/40 shadow-glow backdrop-blur-xl">
-            <GlobeScene />
+          <div className="rounded-3xl border border-white/10 bg-panel/40 p-3 shadow-glow backdrop-blur-xl">
+            <Image
+              src={heroImage}
+              alt="Bhim Prasad Lamichhane hero portrait"
+              className="h-[380px] w-full object-contain md:h-[540px]"
+              sizes="(min-width: 768px) 50vw, 100vw"
+              priority
+            />
           </div>
         </motion.div>
       </div>
