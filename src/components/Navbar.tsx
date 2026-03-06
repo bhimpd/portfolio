@@ -24,12 +24,29 @@ export function Navbar() {
         </Link>
 
         <button
-          className="rounded-md border border-white/20 px-3 py-2 text-xs text-text md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-md border border-white/20 text-text md:hidden"
           onClick={() => setOpen((v) => !v)}
           type="button"
           aria-label="Toggle menu"
+          aria-expanded={open}
         >
-          Menu
+          <span className="relative block h-4 w-5">
+            <span
+              className={`absolute left-0 top-0 h-0.5 w-5 bg-current transition-transform duration-300 ${
+                open ? 'translate-y-[7px] rotate-45' : ''
+              }`}
+            />
+            <span
+              className={`absolute left-0 top-[7px] h-0.5 w-5 bg-current transition-opacity duration-300 ${
+                open ? 'opacity-0' : 'opacity-100'
+              }`}
+            />
+            <span
+              className={`absolute left-0 top-[14px] h-0.5 w-5 bg-current transition-transform duration-300 ${
+                open ? '-translate-y-[7px] -rotate-45' : ''
+              }`}
+            />
+          </span>
         </button>
 
         <ul className="hidden items-center gap-6 md:flex">
